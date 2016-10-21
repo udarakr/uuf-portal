@@ -27,5 +27,28 @@
     <name>WSO2 Dashboard- Portal UUF app</name>
     <url>http://wso2.org</url>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.wso2.carbon.uuf.maven</groupId>
+                <artifactId>carbon-uuf-maven-plugin</artifactId>
+                <version>${carbon-uuf-maven-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>create</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>
+                                create-application
+                            </goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
+    <properties>
+        <carbon-uuf-maven-plugin.version>1.0.0-SNAPSHOT</carbon-uuf-maven-plugin.version>
+    </properties>
 </project>
