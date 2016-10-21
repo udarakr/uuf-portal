@@ -1,2 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
 org.wso2.carbon.dashboards.uuf.portal.iml
+
+*.idea
