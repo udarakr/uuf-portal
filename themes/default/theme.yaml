@@ -1,7 +1,0 @@
-css:
- - lib/bootstrap_3.3.5/css/bootstrap.min.css
- - lib/theme-wso2_1.0/css/theme-wso2.css
-headJs:
- - lib/jquery_1.11.0/jquery-1.11.3.min.js
- - lib/bootstrap_3.3.5/js/bootstrap.min.js
-js: []

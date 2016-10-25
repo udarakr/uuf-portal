@@ -1,2 +1,4 @@
 # zone name : fragment name
 org.wso2.carbon.dashboards.uuf.portal.header: org.wso2.carbon.dashboards.uuf.portal.header
+org.wso2.carbon.dashboards.uuf.portal.dashboardLabel: org.wso2.carbon.dashboards.uuf.portal.label
+org.wso2.carbon.dashboards.uuf.portal.globalNavigation: org.wso2.carbon.dashboards.uuf.portal.globalNavigation
