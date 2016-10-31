@@ -14,4 +14,5 @@
  * limitations under the License.
  */
 function onRequest() {
+    return {showNavigation: true, isNoMobileDevice: true, isallowed: true};
 }
